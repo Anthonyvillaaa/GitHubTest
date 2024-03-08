@@ -42,5 +42,5 @@ N0 = NFA({0,1,2},
 	
 
 if __name__ == "__main__":
-    input_string = "0_000_0"  # replace with your input string
+    input_string = input("Please enter valid decimal integer: ")
     print(N0.run(input_string))
