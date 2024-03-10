@@ -1,0 +1,7 @@
+Notes:
+
+NFA Decinteger beginning with 1:
+Currently accepts integers in the form of 1_***_*_*. Need to ask if there is a requirement for the number of integers in between underscores.
+
+NFA Decinteger beginning with 0:
+Currently accepts 0_0***. Infinite number of trailing zeros. Need to make verify if this is correct.
