@@ -7,7 +7,7 @@ def is_decimal_integer(input_string):
 		return False
 	
 def is_octal_integer(input_string):
-	if input_string.startswith('0o', '0O') and all(char in '01234567_' for char in input_string[2:]):
+	if input_string.startswith(('0o', '0O')) and all(char in '01234567_' for char in input_string[2:]):
 		return True
 	else:
 		return False
